@@ -33,8 +33,8 @@ It works like a mini version of Quora, where users can:
 
 ## 📂 Project Structure
 
-project/
-│── views/ # EJS Templates (index, new, edit, show)
-│── public/ # CSS files
-│── app.js # Main Express server
-│── package.json # Dependencies & scripts
+-project/
+-│── views/ # EJS Templates (index, new, edit, show)
+-│── public/ # CSS files
+-│── app.js # Main Express server
+-│── package.json # Dependencies & scripts
