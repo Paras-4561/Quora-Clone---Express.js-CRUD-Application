@@ -1,0 +1,78 @@
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Page Title */
+.page-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Post Info Card */
+.post-info {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.post-info p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.post-info .label {
+  font-weight: bold;
+  color: #222;
+}
+
+.post-info .value {
+  color: #007bff;
+}
+
+/* Form */
+.edit-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.edit-form button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-form button:hover {
+  background: #0056b3;
+}
+.post-info .value {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 17px;
+  background: #eaf3ff;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+

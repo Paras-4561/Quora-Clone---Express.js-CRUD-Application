@@ -1,0 +1,206 @@
+/* ========== Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ========== Body ========== */
+body {
+  background: #f4f6f8;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Page titles */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 700;
+}
+
+/* ========== Post Cards ========== */
+.post {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  transition: all 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* ID display */
+.post-id {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+}
+
+/* Username */
+.user {
+  color: #e60023;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Post content */
+.cont {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin: 6px 10px 0 0;
+  text-decoration: none;
+  color: #fff;
+  background: #e60023;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background: #c4001e;
+}
+
+/* Create Post Button */
+.create-btn {
+  display: block;
+  width: fit-content;
+  /* pehle 40px tha, ab 20px */
+  padding: 12px 20px;
+  font-size: 1rem;
+  background: #908555;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.create-btn:hover {
+  background: #8d5049;
+}
+
+/* ========== Forms ========== */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+  border-color: #0077ff;
+  box-shadow: 0px 0px 6px rgba(0, 119, 255, 0.3);
+}
+
+/* Buttons */
+form button {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #218838;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  .post {
+    max-width: 100%;
+    padding: 15px;
+  }
+  form {
+    padding: 15px;
+  }
+  form input[type="text"], form textarea {
+    font-size: 0.95rem;
+  }
+  a, .create-btn, form button {
+    font-size: 0.85rem;
+    padding: 10px 14px;
+  }
+}
+
+.create-btn {
+  display: block;
+  width: fit-content;
+  margin: 10px auto 30px auto; /* top | right | bottom | left */
+}
+
+
+/* Delete Form - no box */
+.delete-form {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+
+.delete-btn {
+  display: inline-block;
+  background: #e60023;       /* लाल रंग */
+  color: #fff;               /* सफेद text */
+  font-weight: bold;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c4001e;
+  transform: translateY(-2px);
+}
+
+
